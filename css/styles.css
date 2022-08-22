@@ -3,7 +3,38 @@
 /*  */
 /*  */
 
-body{
-background-color: #fff;
-color: #757575;
+body {
+    background-color: #fff;
+    color: #757575;
+}
+ul{
+    list-style: none;
+}
+/* Лолотип */
+.logo {
+    color: #2196F3;
+    text-decoration: none;
+}
+.header-logo {
+    color: #000000;
+    text-decoration: none;
+}
+/* навигация */
+.site_nav .link {
+    color: #212121;
+    text-decoration: none;
+}
+.site_nav .link:hover,
+.site_nav .link:focus {
+    color: #2196F3;
+}
+/* секции заголовки */
+.section_title{
+    color: #212121;
+}
+.second_section_title{
+    color: #212121;
+}
+.our_teams_title{
+    color: #212121;
 }
