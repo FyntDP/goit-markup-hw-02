@@ -92,7 +92,7 @@ ul{
     font-size: 16px;
     line-height: 1.19;
 }
-.section-team-p {
+.section-team .text {
     font-size: 16px;
     line-height: 1.19;
     color: var(--primary-text-color);
@@ -145,12 +145,8 @@ ul{
 .footer-address>a:focus {
     color: var(--accent-color);
 }
-
-
-
-
 /* Portfolio */
-.portfolio>.portfolio-title {
+.portfolio .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
