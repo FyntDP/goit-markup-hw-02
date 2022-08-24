@@ -1,18 +1,27 @@
-/* Палитра */
-/*  */
-/*  */
-/*  */
+/* цвет основного текста #757575 */
+/* цвет заголовков на темном фоне + logo  #FFFFFF */
+/* цвет большинства заголовков #212121 */
+/* ховер + Web + bgr кнопок  */
 
+:root {
+    --primary-text-color:#757575 ;
+    --title: #212121;
+    --accent-color:#2196F3;
+    --contrast-color: #FFFFFF;
+}
 body {
-    background-color: #fff;
-    color: #757575;
+    background-color: var(--contrast-color);
+    color: var(--primary-text-color);
+}
+a{
+    text-decoration: none;
 }
 ul{
     list-style: none;
 }
 /* Лолотип */
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 .header-logo {
@@ -21,20 +30,103 @@ ul{
 }
 /* навигация */
 .site_nav .link {
-    color: #212121;
+    color: var(--title);
+    text-decoration: none;
+}
+.link-contact {
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 .site_nav .link:hover,
-.site_nav .link:focus {
-    color: #2196F3;
+.site_nav .link:focus,
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--accent-color);
 }
+
 /* секции заголовки */
 .section_title{
-    color: #212121;
+    color: var(--title);
+    text-decoration: none;
 }
-.second_section_title{
-    color: #212121;
+
+.section-team{
+    background-color: #F5F4FA;
+    color: var(--title);
 }
 .our_teams_title{
-    color: #212121;
+    color: var(--title);
 }
+/* Hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero_title{
+    background-color: #2F303A;
+    color: #ffffff;
+    text-transform:uppercase;
+}
+/* footer */
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo{
+    color: var(--contrast-color);
+}
+.footer-address{
+    color: var(--contrast-color);
+}
+.footer-address > a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* Portfolio */
+.portfolio>.portfolio-title {
+    color: var(--title);
+}
+.portfolio > p{
+    color: var(--primary-text-color);
+}
+.portfolio-button{
+    color: var(--title);
+}
+.portfolio-button:hover{
+    background-color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
